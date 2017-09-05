@@ -1,0 +1,95 @@
+#background {
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+#outer {
+  background-color: white;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 500px;
+  width: 1000px;
+  line-height: 100px;
+  border-radius: 7px;
+  position: relative;
+}
+
+#inner {
+  border: solid 5px;
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  font-size: 100px;
+  line-height: 280px;
+  border-radius: 7px;
+}
+
+button {
+  background-color: white;
+  border: solid 3px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+
+button:hover {
+  border: solid 4px;
+}
+
+button:active {
+  border: solid 5px;
+  box-shadow: -2px -2px;
+}
+
+button:focus {
+  background-color: white;
+  border: solid 4px;
+  font-size: 15px;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  outline: none;
+}
+
+#startButton {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 150px;
+  height: 10%;
+  width: 10%;
+}
+
+#stopButton {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -100px;
+  height: 10%;
+  width: 10%;
+}
+
+#addFiveButton {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 150px;
+  height:10%;
+  width: 10%;
+}
+
+#subtractFiveButton {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -100px;
+  height: 10%;
+  width: 10%;
+}
+
+#resetButton {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 20px;
+  height: 10%;
+  width: 10%;
+}
